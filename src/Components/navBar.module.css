@@ -1,0 +1,144 @@
+.MainComponent{
+    list-style: none;
+    /* background-image: url(https://images.pexels.com/photos/949131/pexels-photo-949131.jpeg?auto=compress&cs=tinysrgb&w=600); */
+    background-color: #333333;
+    height: 80px;
+    width: 100;
+    padding: 0px;
+    margin: 0px;
+    font-family: montserrat, sans-serif;
+    margin-bottom: 0px;
+    overflow: hidden;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+.logo{
+    color: White;
+    font-size: 35px;
+    line-height: 80px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 50px;
+    margin-right: 300px;
+}
+.linker{
+    color: white;
+    font-size: 18px;
+    line-height: 70px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    /* flex-direction: row;
+    align-items: center; */
+    margin: 15px;
+    
+}
+.linker:hover{
+    background-color:  rgb(104, 101, 101);
+    transition: .5s;
+    padding: 3px 7px;;
+    border-radius: 3px;    
+}
+.button{
+    color: white;
+    font-size: 18px;
+    line-height: 70px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    /* flex-direction: row;
+    align-items: center; */
+    margin: 20px;
+    
+}
+.buttonJoin{
+    margin:50px ;
+    margin-top: 5px;
+    font-size: 25px;
+    background-color: white;
+    border: 1px white solid;
+    border-radius: 10px;
+    color: black;
+    font-weight: bold;
+    padding: 3px;
+}
+.barButton{
+    color: white;
+    font-size: 30px;
+    padding: 20px;
+    float: right;
+    display: none;
+}
+.linkerComponent{
+  padding: 0px;
+  margin: 0px;
+}
+.section{
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  line-height: 70px;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  /* flex-direction: row;
+  align-items: center; */
+  margin: 15px;
+}
+.section:hover{
+  background-color:  rgb(104, 101, 101);
+    transition: .5s;
+    padding: 3px 7px;;
+    border-radius: 3px;    
+}
+
+@media (max-width:700px) {
+
+  .barButton{
+    display: block;
+  }
+  .MainComponent{
+    position: absolute;
+    overflow: unset ;
+    width: 100%;
+  }
+  .linker{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width:100%;
+    background-color: rgb(70, 69, 69);
+    top: 85px;
+    padding: 0px;
+    margin: 0px;
+    height:11em;
+  }
+  .linker:hover{
+    padding: 2px 4px;
+  }
+  .linkerComponent{
+    margin: 0px;
+    padding: 0px;
+    display: none;
+  }
+#buttonId{
+    display: block;
+}
+  .logo{
+    margin:100px;
+    line-height: 80px;
+    margin-left: 45px
+    
+  }
+  .buttonJoin{
+    display: none;
+  }
+  .section{
+    display: none;
+  }
+  }  
+    

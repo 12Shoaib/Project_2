@@ -1,0 +1,10 @@
+.mainComponent{
+    padding: 20px;
+    padding-bottom: 80px;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}

@@ -1,0 +1,59 @@
+.mainComponent{
+   margin: 20px;
+   margin-top: 90px;  
+}
+.formComponents{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-left: 250px;
+   margin-right: 250px;
+   margin-bottom: 250px;
+   padding: 60px;
+   background-color: lightgrey;
+}
+.inputBox{
+   font-size: 18px;
+   padding: 5px;
+   margin: 5px;
+   width: 350px;
+}
+.registerButton{
+   margin: 20px;
+   font-size: 20px;
+   margin-bottom: 0px;
+   padding-bottom:0px;
+   color: white;
+   background-color: rgb(56, 51, 51);
+   border-radius: 10px;
+   padding: 3px;
+   border: 2px solid rgb(56, 51, 51);
+}
+.buttonComponent{
+   display: flex;
+   
+}
+.homeButton{
+   color: white;
+   background-color: rgb(56, 51, 51);
+   border-radius: 10px;
+   border: 2px solid rgb(56, 51, 51); 
+   padding: 1px;  
+}
+
+.home{
+   text-decoration: none;
+   padding-top:24px;
+   font-size: 20px;
+}
+.loginButton{
+   margin: 20px;
+   font-size: 18px;
+   margin-bottom: 0px;
+   padding-bottom:0px;
+   color: white;
+   background-color: rgb(56, 51, 51);
+   border-radius: 10px;
+   padding: 3px;
+   border: 2px solid rgb(56, 51, 51);  
+}

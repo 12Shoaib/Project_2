@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+  }
+  .heading1{
+    color:white;
+  }
+  
+  .container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+     
+      background-color: #333333;
+      ;
+      padding: 10px;
+    }
+  
+  .mypara{
+    color:white;
+    margin-top: 1px;  
+  }
+  .wholeButton{
+    margin-top: 5px;
+    font-size: 15px;
+    background-color: white;
+    border: 1px white solid;
+    border-radius: 10px;
+    color: black;
+    font-weight: bold;
+    padding: 5px;
+    margin: 5px;
+  }
+  
+  .peers{
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 9px;
+    height: 50vh;
+    width: 82vw;
+    margin: 10px;
+  }
+ 
+  .card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    
+  }
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(145, 51, 51, 0.2);
+  }
+  .myimg{
+    height: 35vh;
+    width: 20vw;
+  }
+  
+  
+  
+  @media only screen and (max-width: 1024px) {
+    .peers{
+      background-color: white;
+      display: block;
+      /* grid-template-columns: 1fr 1fr 1fr 1fr;
+      column-gap: 9px; */
+      height: 50vh;
+      width: 90vw;
+      margin-left: 50px;
+      margin-right: 50px;
+    }
+  
+    .container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      
+     
+      
+     
+     
+      background-color: #ffffff;
+     
+    }
+  
+    .mypara{
+      color:black;
+      margin-top: 1px;
+     
+     
+    }
+    .card{
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+      transition: 0.3s;
+      height: 80vh;
+     
+      
+    }
+    .card:hover {
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    }
+  
+    .myimg{
+      height: 60vh;
+      width: 90vw;
+      
+     
+    }
+    .container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+     
+      position:relative;
+     
+     
+      background-color: #ffffff;
+     
+    }
+    .button1{
+      margin-top: 100px;
+      position:absoulte;
+      margin-top: 2100px;
+      
+   }
+  
+  }

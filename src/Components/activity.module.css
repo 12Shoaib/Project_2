@@ -1,0 +1,18 @@
+.mainComponent{
+   padding: 14px;
+   padding-top: 80px;
+}
+.homeButton{
+    color: white;
+    background-color: rgb(56, 51, 51);
+    border-radius: 10px;
+    border: 2px solid rgb(56, 51, 51); 
+    padding: 1px;  
+ }
+ 
+ .home{
+    text-decoration: none;
+    padding-top:24px;
+    font-size: 20px;
+ }
+ 

@@ -1,0 +1,63 @@
+.mainComponent{
+    padding: 20px;
+    padding-top: 80px;
+    
+}
+.carou{
+    width: 95vw;
+    margin: 0px;
+    padding-bottom: 31px;
+    background-color:white;
+   
+}
+.header{
+    color:blue;
+}
+.item{
+    position:relative;
+    height: 29vh;
+    width: 29vw;
+}
+.imgtext{
+    position: absolute;
+    top:40px;
+    padding-left:;
+    color:white;
+    left:100px;
+    font-size: 30px;    
+    /* left:-50%; */
+   
+}
+.img1{
+   min-width: 300px;
+    border-radius: 15px;
+    height: 100%;
+    width: 100%;
+}
+
+.heading2{
+    color:black;
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .img1{
+       min-width: 350px;
+        border-radius: 15px;
+        height: 100%;
+        width: 100%;
+    }
+
+    .imgtext{
+        position: absolute;
+        top: 19px;
+    
+        color:white;
+        left:121px;
+        font-size: 30px;
+        
+        /* left:-50%; */
+       
+    }
+   
+   }

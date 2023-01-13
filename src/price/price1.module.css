@@ -1,0 +1,158 @@
+.mainComponent{
+  padding: 10px;
+  padding-top:80px;
+  padding-bottom: 40px ;
+  margin-bottom: 40px ;
+}
+/* *{
+  box-sizing: border-box;
+} */
+
+:root {
+  --accent-color: #060ae7e8;
+  --heading-font-family: "poppins", sans-serif;
+  --body-font-family: "lato", sans-serif;
+}
+body {
+ 
+  /* margin: 0;
+  
+  width: 100px;
+  height: 100px;
+  background-color: #131413e3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--body-font-family); */
+}
+
+.priceComparison {
+  background-color: #333333;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  height: auto;
+  margin-top: 5rem;
+  
+}
+.priceColumn {
+/* height: 50px; */
+
+  background-color:#1f1313;
+  box-shadow: 0 7px 30px rgba(217, 214, 224, 0.1);
+  padding: 2rem;
+  flex-grow: 1;
+  flex-basis: 0;
+  max-width: 250px;
+  margin-right: 20px;
+}
+.priceColumnPopular {
+  /* height: 50px; */
+  
+  background-color: rgb(238, 225, 225);
+  color: rgb(48, 22, 19);
+  box-shadow: 0 7px 30px rgba(121, 115, 134, 0.3);
+  padding: 2rem;
+  margin-top: 1rem;
+  padding-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1.5rem;
+  margin-right: 60px;
+  width: 250px;
+  /* padding: 0px;
+  margin: 0px;
+  padding-left: 15px; */
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  font-style: italic;
+}
+.price {
+  font-size: 3.5rem;
+  display: flex;
+}
+.dollarSign {
+  font-size: 1.5rem;
+  margin-top: 0.5rem;
+  margin-right: 0.25rem;
+}
+.numbers{
+  color: green;
+}
+.pass {
+  font-size: 0.75rem;
+  align-self: flex-end;
+  margin-bottom: 1.1rem;
+  font-style: italic;
+  margin-top: 3rem;
+  margin-bottom: 1.1rem;
+  
+}
+
+.features {
+  align-items: center;
+  margin-right: 2rem;
+}
+
+.top {
+  /* position: absolute; */
+  top: 0.5rem;
+  left: 0.5rem;
+  right: 0.5rem;
+  text-align: center;
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+}
+.btn {
+  border: none;
+  color: rgb(185, 23, 23);
+  width: 100%;
+
+  
+  padding: 0.75rem 1rem;
+  cursor: pointer;
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+  border-radius: 4px;
+  margin-top: 3rem;
+  transition: 100ms;
+  transform: scale(1);
+
+  
+}
+.btn:hover,
+.btn:focus {
+  transform: scale(1.1);
+}
+/* .priceColumn:hover,
+.priceColumn :focus {
+  transform: scale(1.1);
+  transition: .5s all ease-in-out; ;
+}
+.priceColumnPopular:hover,
+.priceColumnPopular :focus {
+  transform: scale(1.1);
+  transition: .5s all ease-in-out; ;
+} */
+
+.para{
+  text-decoration: underline solid red 20%;
+  text-indent: -1em;
+}
+.member{
+  font-family: var(--heading-font-family);
+  line-height: 1.5;
+  
+  color: white;
+}
+.icon{
+  font-size: 12px;
+  text-indent: 1em;
+  font-family: var(--heading-font-family);
+  color :#978383;
+  line-height: 2;
+  
+}
